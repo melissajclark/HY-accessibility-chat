@@ -430,7 +430,7 @@ body {
 *
 **/
 body, input, textarea {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   line-height: 2rem;
   word-wrap: break-word;
   font-family: 'Source Sans Pro', monospace;
