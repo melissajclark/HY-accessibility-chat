@@ -1,0 +1,15 @@
+### IGNORE ALL OF THIS ###
+
+
+###SASS###
+
+.sass-cache
+
+
+### GULP STUFF ###
+
+node_modules
+package.json
+gulpfile.js
+
+.DS_Store

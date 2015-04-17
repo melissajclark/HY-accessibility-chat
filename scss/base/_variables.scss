@@ -1,0 +1,27 @@
+ // BASE VARIABLES
+ // ******************
+
+// Sizes
+$width: 95%;
+$width-outer: 100%;
+$mainContent: $width - 25%;
+$primary-width: 75%;
+$secondary-width: 25%;
+
+ 
+// Colors
+$text: #222;
+$links: blue;
+$hover: red;
+$placeholder: rgba($text, 0.7);
+$white: #fff;
+
+$bg: $white;
+
+// Fonts
+$body-font: 'Source Sans Pro', monospace;
+$heading-font: 'Source Code Pro', monospace;
+// $second-heading-font: ;
+
+// Borders
+$border: 1px solid #444;

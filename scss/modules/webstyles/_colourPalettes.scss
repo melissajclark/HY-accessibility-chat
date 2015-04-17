@@ -1,0 +1,57 @@
+/**
+*
+* Colour Palette Layout
+*
+**/
+
+/* Container for Swatches */
+.colourPalette {
+	width:100%;
+	min-height:160px;
+
+	/* Class added when code block is shown */
+
+	&.colourPaletteCodeVisible {
+		float:left;
+		width:55%;
+		margin:0 0 0 5%;
+
+		@include breakpoint(medium){
+			width:100%;
+			margin:0;
+			max-width:640px;
+		}
+	} // .colourPaletteCodeVisible
+
+	/* Individual Swatches */
+	a.paletteSwatch {
+		width:160px;
+		height:160px;
+		float:left;
+		position:relative;
+		text-align:center;
+
+		&:focus {
+			outline:3px solid;
+			color:$placeholder;
+			z-index:10;
+		} // :focus
+
+		/* swatchColour - hexcode displayed on swatch */
+		span.swatchColour {
+			background:rgba($white, .8);
+			padding:3px;
+			font-weight:300;
+			text-transform:uppercase;
+			margin:0;
+			color:$text;
+
+			// align center - ish
+			position: absolute;
+			top: 40%;
+			left:30%;
+		} // span.swatchColour
+
+	} // .paletteSwatch
+
+} // .colourPalette

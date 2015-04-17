@@ -1,0 +1,27 @@
+/**
+*
+* Code Blocks
+*
+**/
+
+.codeExample {
+
+	line-height:1.1;
+	font-size:15px;
+	float:left;
+	width:40%;
+	
+	@include breakpoint(medium){
+		width:100%;	
+		max-width:640px;	
+	}
+}
+
+.hidden {
+	display:none;
+}
+
+button.revealCode {
+	margin-bottom:1.5rem;
+	display:block;
+}
