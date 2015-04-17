@@ -26,4 +26,5 @@
 - [16 Pixels: For Body Copy. Anything Less Is A Costly Mistake](http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake/)
 - [Should you use HTML5 header and footer?](http://www.brucelawson.co.uk/2014/should-you-use-html5-header-and-footer/)
     - "Matt Wilcox asked “I still don’t bother with <header> <footer> etc. I assume all widely used browsers support them now. But, do they do anything more than div?”. It’s a good question. The answer I gave is “yes”. These two elements (and <nav> and <main>) give value to users of some assistive technologies on some browsers."
+- [3% of users browse with IE9 and 14% of users have a disability. Why do we only cater for the former?](http://www.fionatg.com/BlogPost/1005/3-of-users-browse-with-ie9-and-14-of-users?utm_campaign=buffer&utm_content=buffer2f9ca&utm_medium=social&utm_source=twitter.com)
 

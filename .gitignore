@@ -13,3 +13,5 @@ package.json
 gulpfile.js
 
 .DS_Store
+
+readme.html
